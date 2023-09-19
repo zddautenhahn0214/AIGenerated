@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template</title>
+	
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #111;
+        }
+            /* Nav bar styling */
+		.navbar {
+			background-color: #333;
+			overflow: hidden;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 1rem;
+		}
+
+		.navbar a {
+			color: white;
+			text-decoration: none;
+			padding: 0.5rem 1rem;
+		}
+
+		.navbar a:hover {
+			background-color: #555;
+		}
+
+		/* Table styling */
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin: 1rem 0;
+		}
+
+		th, td {
+			border: 1px solid #ccc;
+			padding: 0.5rem;
+			text-align: left;
+		}
+
+		th {
+			background-color: #f9d342; /* Yellow */
+			color: #333;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		/* Data visualization */
+		.chart-container {
+			width: 100%;
+			height: 300px;
+			margin: 1rem 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.bar {
+			height: 100%;
+			background-color: #f9d342;
+			margin: 0 0.5rem;
+			flex-grow: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items: center;
+		}
+
+		.bar span {
+			margin-top: 0.5rem;
+		}
+	</style>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <!-- Table -->
+	<table>
+		<thead>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+				<th>Header 4</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!-- Add table rows and data here -->
+		</tbody>
+	</table>
+
+	<!-- Data visualization -->
+	<div class="chart-container">
+		<!-- Add bar divs with inline styles for heights -->
+		<div class="bar" style="height: 60%;">
+			<span>60%</span>
+		</div>
+		<div class="bar" style="height: 80%;">
+			<span>80%</span>
+		</div>
+		<div class="bar" style="height: 40%;">
+			<span>40%</span>
+		</div>
+	</div>
+	
+</body>
+</html>

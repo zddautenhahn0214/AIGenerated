@@ -1,0 +1,3 @@
+These are all various programs I had an AI, mostly chatGPT, to write for me. I would then look the code over, try running it, ask the AI to correct any erros or modify the code myself if it was simple enough.
+
+I would also request that the AI comment the code with short explainations to what each part would do, this seemed to decrease simple error and also makes the code easier to follow. I did not check that every single comment was accurate, but the ones I did read seemed fine.

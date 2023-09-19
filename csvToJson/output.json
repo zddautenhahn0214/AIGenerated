@@ -1,0 +1,263 @@
+[
+    {
+        "Name": "Boar Jerky x2",
+        "Health": "23",
+        "Stamina": "23",
+        "Duration(min)": "30",
+        "Healing Rate/tick": "2",
+        "Region": "1: Meadows",
+        "Classification": "N"
+    },
+    {
+        "Name": "Cooked Boar meat",
+        "Health": "30",
+        "Stamina": "10",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "2",
+        "Region": "1: Meadows",
+        "Classification": "H"
+    },
+    {
+        "Name": "Grilled Neck Tail",
+        "Health": "25",
+        "Stamina": "8",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "2",
+        "Region": "1: Meadows",
+        "Classification": "H"
+    },
+    {
+        "Name": "Mushroom",
+        "Health": "15",
+        "Stamina": "15",
+        "Duration(min)": "15",
+        "Healing Rate/tick": "1",
+        "Region": "1: Meadows",
+        "Classification": "N"
+    },
+    {
+        "Name": "Rasberries",
+        "Health": "7",
+        "Stamina": "20",
+        "Duration(min)": "10",
+        "Healing Rate/tick": "1",
+        "Region": "1: Meadows",
+        "Classification": "S"
+    },
+    {
+        "Name": "Cooked Deer Meat",
+        "Health": "35",
+        "Stamina": "12",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "2",
+        "Region": "1: Meadows",
+        "Classification": "H"
+    },
+    {
+        "Name": "Honey",
+        "Health": "8",
+        "Stamina": "35",
+        "Duration(min)": "15",
+        "Healing Rate/tick": "1",
+        "Region": "1: Meadows",
+        "Classification": "S"
+    },
+    {
+        "Name": "Blueberries",
+        "Health": "8",
+        "Stamina": "25",
+        "Duration(min)": "10",
+        "Healing Rate/tick": "1",
+        "Region": "2: Black Forest",
+        "Classification": "S"
+    },
+    {
+        "Name": "Carrot ",
+        "Health": "10",
+        "Stamina": "32",
+        "Duration(min)": "15",
+        "Healing Rate/tick": "1",
+        "Region": "2: Black Forest",
+        "Classification": "S"
+    },
+    {
+        "Name": "Carrot Soup",
+        "Health": "15",
+        "Stamina": "45",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "2",
+        "Region": "2: Black Forest",
+        "Classification": "S"
+    },
+    {
+        "Name": "Cooked Fish",
+        "Health": "45",
+        "Stamina": "15",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "2",
+        "Region": "2: Black Forest",
+        "Classification": "H"
+    },
+    {
+        "Name": "Deer Stew",
+        "Health": "45",
+        "Stamina": "15",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "3",
+        "Region": "2: Black Forest",
+        "Classification": "H"
+    },
+    {
+        "Name": "Minced Meat Sauce",
+        "Health": "40",
+        "Stamina": "13",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "3",
+        "Region": "2: Black Forest",
+        "Classification": "H"
+    },
+    {
+        "Name": "Queens Jam x4",
+        "Health": "14",
+        "Stamina": "40",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "2",
+        "Region": "2: Black Forest",
+        "Classification": "S"
+    },
+    {
+        "Name": "Yellow Mushroom",
+        "Health": "10",
+        "Stamina": "30",
+        "Duration(min)": "10",
+        "Healing Rate/tick": "1",
+        "Region": "2: Black Forest",
+        "Classification": "S"
+    },
+    {
+        "Name": "Black Soup",
+        "Health": "50",
+        "Stamina": "17",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "3",
+        "Region": "3: Swamp",
+        "Classification": "H"
+    },
+    {
+        "Name": "Muckshake",
+        "Health": "16",
+        "Stamina": "50",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "1",
+        "Region": "3: Swamp",
+        "Classification": "S"
+    },
+    {
+        "Name": "Sausages x4",
+        "Health": "55",
+        "Stamina": "18",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "3",
+        "Region": "3: Swamp",
+        "Classification": "H"
+    },
+    {
+        "Name": "Serpant Stew",
+        "Health": "80",
+        "Stamina": "26",
+        "Duration(min)": "30",
+        "Healing Rate/tick": "4",
+        "Region": "3: Swamp",
+        "Classification": "H"
+    },
+    {
+        "Name": "Turnip Stew",
+        "Health": "18",
+        "Stamina": "55",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "2",
+        "Region": "3: Swamp",
+        "Classification": "S"
+    },
+    {
+        "Name": "Cooked Serpent Meat",
+        "Health": "70",
+        "Stamina": "23",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "3",
+        "Region": "3: Swamp",
+        "Classification": "H"
+    },
+    {
+        "Name": "Cooked Wolf Meat",
+        "Health": "45",
+        "Stamina": "15",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "3",
+        "Region": "4: Mountain",
+        "Classification": "H"
+    },
+    {
+        "Name": "Eyescream",
+        "Health": "21",
+        "Stamina": "65",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "1",
+        "Region": "4: Mountain",
+        "Classification": "S"
+    },
+    {
+        "Name": "Onion",
+        "Health": "13",
+        "Stamina": "40",
+        "Duration(min)": "15",
+        "Healing Rate/tick": "1",
+        "Region": "4: Mountain",
+        "Classification": "S"
+    },
+    {
+        "Name": "Onion soup",
+        "Health": "20",
+        "Stamina": "60",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "1",
+        "Region": "4: Mountain",
+        "Classification": "S"
+    },
+    {
+        "Name": "Wolf jerky x2",
+        "Health": "33",
+        "Stamina": "33",
+        "Duration(min)": "30",
+        "Healing Rate/tick": "3",
+        "Region": "4: Mountain",
+        "Classification": "N"
+    },
+    {
+        "Name": "Wolf skewer",
+        "Health": "65",
+        "Stamina": "21",
+        "Duration(min)": "25",
+        "Healing Rate/tick": "3",
+        "Region": "4: Mountain",
+        "Classification": "H"
+    },
+    {
+        "Name": "Cloudberries",
+        "Health": "13",
+        "Stamina": "40",
+        "Duration(min)": "15",
+        "Healing Rate/tick": "1",
+        "Region": "5: Plains",
+        "Classification": "S"
+    },
+    {
+        "Name": "Cooked Lox Meat",
+        "Health": "50",
+        "Stamina": "16",
+        "Duration(min)": "20",
+        "Healing Rate/tick": "4",
+        "Region": "5: Plains",
+        "Classification": "H"
+    }
+]

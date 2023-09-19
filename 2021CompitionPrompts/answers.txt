@@ -1,0 +1,9 @@
+
+fromFunA=reverse("Reverse this text!")
+print("The result of the reverse \"fromA\" is:",fromFunA)
+#Return code for a function that takes a list as input and returns a list with all values doubled.
+fromFunB=jumbledDouble("a",2,3)
+print("The result of the double \"fromB\" is:",fromFunB)
+#Return code for a function that takes a list as input and returns a list with all values doubled.
+fromFunC=jumbledDouble("a",11,34)
+print("The result of the double \"fromC\" is:",fromFunC)

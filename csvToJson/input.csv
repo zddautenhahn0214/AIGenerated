@@ -1,0 +1,30 @@
+Name,Health,Stamina,Duration(min),Healing Rate/tick,Region,Classification
+Boar Jerky x2,23,23,30,2,1: Meadows,N
+Cooked Boar meat,30,10,20,2,1: Meadows,H
+Grilled Neck Tail,25,8,20,2,1: Meadows,H
+Mushroom,15,15,15,1,1: Meadows,N
+Rasberries,7,20,10,1,1: Meadows,S
+Cooked Deer Meat,35,12,20,2,1: Meadows,H
+Honey,8,35,15,1,1: Meadows,S
+Blueberries,8,25,10,1,2: Black Forest,S
+Carrot ,10,32,15,1,2: Black Forest,S
+Carrot Soup,15,45,25,2,2: Black Forest,S
+Cooked Fish,45,15,20,2,2: Black Forest,H
+Deer Stew,45,15,25,3,2: Black Forest,H
+Minced Meat Sauce,40,13,25,3,2: Black Forest,H
+Queens Jam x4,14,40,20,2,2: Black Forest,S
+Yellow Mushroom,10,30,10,1,2: Black Forest,S
+Black Soup,50,17,20,3,3: Swamp,H
+Muckshake,16,50,20,1,3: Swamp,S
+Sausages x4,55,18,25,3,3: Swamp,H
+Serpant Stew,80,26,30,4,3: Swamp,H
+Turnip Stew,18,55,25,2,3: Swamp,S
+Cooked Serpent Meat,70,23,25,3,3: Swamp,H
+Cooked Wolf Meat,45,15,20,3,4: Mountain,H
+Eyescream,21,65,25,1,4: Mountain,S
+Onion,13,40,15,1,4: Mountain,S
+Onion soup,20,60,20,1,4: Mountain,S
+Wolf jerky x2,33,33,30,3,4: Mountain,N
+Wolf skewer,65,21,25,3,4: Mountain,H
+Cloudberries,13,40,15,1,5: Plains,S
+Cooked Lox Meat,50,16,20,4,5: Plains,H

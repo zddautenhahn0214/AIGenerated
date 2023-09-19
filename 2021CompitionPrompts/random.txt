@@ -1,0 +1,49 @@
+ (e.g., given "cat", return "tac")
++def reverse_string(a_string):
++    return a_string[::-1]
++
++#Above I used slicing, a mnemonic I learned at App Academy is SLICES OVEN! :) 
++#Slices is first index, O is the second index, the third index is for a step size, which is either + or - and this controls the direction of traversal along the array.
++#Hence, a -1 step from starting at 0 is going backward one, or opposite direction. There is also an optional argument "slice" which determines at what slice along the array to stop (defaults to the end of array)
++    
++#Return code for a function that takes a positive integer as input and returns two outputs: the #'s largest prime factor and the smallest prime factor
++def factorization(anum):
++    sar = []
++    
++    #append first prime factor; 
++    #NOTE: I was going to use the sqrt trick of trial dividing all primes from 2 up to the squareroot of the number; however that rules out the case where the number is the multiple of the square of a prime (e.g., 16, 122)
++    #So.... I took hints from Wikipedia and trial divided my way up to said number incrementing by the smallest possible value for me to determine which is the smallest prime factor
++    #i.e., when we incremented by 2, we're only focusing on odd numbers. But when we get to evens, we increment by 4 etc. when incrementing by 2 wont get us to a factorizable even, because 
++    #this moves us to the next odd rather than jump to the next even which is numerically twice as far. However, I need to put in a 2nd condition in which I skipt to the next odd when im multiple traversing
++    #even twice or third times etc.
++    if anum % 2 == 0:
++        factor = 2
++    else:
++        factor = 1
++    
++    while anum > 1:
++        if anum % factor == 0:
++            sar.append(factor)
++            anum /= factor
++           
++        else:
++            factor += 2 #FOR EDGE CASE OF SKIPPING ODD WHEN MODULUS OF ANUM AND ODD FACTOR COLLIDE
++             
++            
++    return (max(sar), min(sar))
++
++#Return code for the recursive checksum algo
++def checksum(an_int):
++    
++    digits = [int(i) for i in str(an_int)]
++    if len(str(an_int)) == 1:
++        return str(an_int)
++    #If digit is greater than or equal to 1, then recurse
++    
++    result_sum = sum(digits)
++    return checksum(result_sum)
++ #I modified the algo so you don't need an if-else..just the second condition of else was added with the return statement.
++            
++            
++    
++

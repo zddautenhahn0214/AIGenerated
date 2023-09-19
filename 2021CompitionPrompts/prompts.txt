@@ -1,0 +1,239 @@
+Prompt #1: 
+Write some python code to do fulfill the following prompt: 
+1. Electric Charges
+In this problem you need to calculate the total amount of an electric bill. Given an integer value representing the number of kilowatt hours used, calculate the total amount owed using the following rates:
+7.633 cents for the first 1000 hours used
+9.259 cents for any hours used over 1000 hours.
+Input
+Prompt for the input as shown below. Enter an integer greater than zero representing the kilowatt hours used. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+A decimal value representing the total amount owed in dollars. Although the results in the test data below show multiple decimal positions, your answers will only be checked to two decimal positions.
+
+Prompt #2: 
+Write some python code to do fulfill the following prompt: 
+Fun with Commas
+In this problem you must separate each word in a list, except the last, with commas. The last word must be prefaced by the word “and”. Each word will be entered on the console on its own line. The list will have at least one word and a maximum of fifty words. The list will be terminated with the word “quit”. For example, input consisting of:
+one
+two
+three
+quit
+will result in the following output: one, two and three.
+Input
+Prompt for the input as shown below. Enter a list of words of various lengths ending with the word quit. The list will have a minimum of one word and a maximum of fifty words. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+The list of words with each pair of words separated by a comma except for the last.  The last pair of words are separated by the word "and".
+
+Prompt #3: 
+Write some python code to do fulfill the following prompt: 
+3.  Largest Quotient
+Using an array of integers, your application will need to calculate the largest number possible by dividing any two integers in the array. For example, if the array contained 5, 4, 19, 20, 33, the largest number possible is 8 calculated as 33 / 4. Display the integer result. Truncate any decimal digits.
+Input
+Prompt for the input as shown below. Enter a series of integers each separated by a space. The final digit will be a zero indicating the end of the input. The series of integers will contain only positive (non-zero) integers. The series will contain at least two integers and fewer than 15. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+A single integer number representing the largest quotient possible using the input.
+
+Prompt #4: 
+Write some python code to do fulfill the following prompt: 
+4.  Where Am I?
+In this problem you will need to determine which quadrant a given point is in. There are four quadrants, numbered from 1 to 4, as shown in the diagram below. Given the X, Y coordinates of a point display 1, 2, 3, or 4 to indicate the quadrant in which the point is located.
+Input
+Prompt for the input as shown below. Enter two integers separated by a space. Neither number can be zero. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+Output the quadrant number (1, 2, 3 or 4) for the point. Use the format shown below.
+
+Prompt #5: 
+Write some python code to do fulfill the following prompt: 
+5.  What's the Difference?
+In this problem you will process two lists of numbers and return the difference. The difference are numbers that appear in one of the lists but not both. Consider the following two lists:
+[27, 19, 1, 7]
+[7, 23, 14, 9, 27]
+The difference would be: [1, 9, 14, 19, 23].
+Input
+Prompt for the input as shown below. Enter two lines of integers with each integer separated by a space. The first line of input will start with the number of items in the list, n. Following are n integers each separated by a single space. The second line of input will also start with the number of items in the second list, m. This is followed by m integers each separated by a single space. The lists can contain any valid integer including negative numbers and zero. The same number will not appear twice in the same list. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+Display the differences between the two lists. The numbers in the list must by displayed in ascending sequence. Display a message, as shown below, if there are no differences.
+
+Prompt #6: 
+Write some python code to do fulfill the following prompt: 
+6.  Glad to be One
+The Glad to be One number sequence are those whose sequence ends in a one. Numbers that are not “glad” are those that infinitely repeat a sequence of numbers but never reach the number one. For this problem you must determine if a number is a glad number or not. For a given positive integer N, the next number in the sequence will be the sum of the squares of its digits. Continue to generate numbers in the sequence until the sequence reaches one or the sequence begins to repeat itself. The original input is a glad number if the sequence reaches one. The original input is not a glad number if the sequence starts to repeat itself without reaching one. Below are examples.
+
+Prompt #7: 
+Write some python code to do fulfill the following prompt: 
+7.  Less or More
+In this problem you must examine a list of numbers and determine how many times a number in the list has a lower number to its “right”. For example, in the list 3, 9, 4, 6, 7, 5, there are 3 cases where a number in the list has at least one lower number to the right. The number 9 has the number 4 to its right. The number 6 has the number 5 to its right. The number 7 has the number 5 to its right.
+Input
+Prompt for the input as shown below. Enter an integer, n, that represents the count of numbers to follow. Enter n integers with each separated by a space. Each integer will be greater than 0. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+A count of how many times a number in the list has a lower number to its right.
+Test Data
+Input
+Output
+Enter count, integers separated by a space:
+6 28 7 6 21 88 89
+2
+Enter count, integers separated by a space:
+10 13 99 4 18 44 87 109 201 22 1
+9
+Enter count, integers separated by a space:
+5 13 22 77 83 91
+0
+Enter count, integers separated by a space:
+7 85 74 32 21 20 16 2
+6
+
+Prompt #8: 
+Write some python code to do fulfill the following prompt: 
+8.  It Adds Up
+In this problem you will be given a target number and a list of numbers to search. You will need to identify all pairs of numbers that sum to the target number. For example, given the target number of 6 and the list of 16, 11, 2, 8, 6, 7, 4, 33, -2, the pairs (2, 4) and (8, -2) sum to 6. In addition to listing the pairs that sum to the target number, you will need to list their position in the original list. The pair (2, 4) was located at 3 and 7. The pair (8, -2) was located at 4 and 9.
+Input
+Prompt for the following integer values. The first integer value will be a positive or negative integer or zero and will represent the target sum. The second integer is the number of numbers (N) in the list. This is followed by N positive or negative integers, or zero. Each integer value will be separated by a space. Data will be entered from the console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+Display each pair of numbers that sum to the target number formatted as shown below. This is followed by the location of each number formatted as shown below. Display “No pairs found” if there are no pairs that sum to the target number.
+Test Data
+Input
+Output
+Enter the desired sum, number of elements, each element:
+6 9 16 11 2 8 6 7 4 33 -2
+(2, 4) found at [3] [7]
+(8, -2) found at [4] [9]
+Enter the desired sum, number of elements, each element:
+13 11 8 5 4 3 7 12 6 1 19 -4 17
+(8, 5) found at [1] [2]
+(7, 6) found at [5] [7]
+(12, 1) found at [6] [8]
+(-4, 17) found at [10] [11]
+Enter the desired sum, number of elements, each element:
+33 6 1 14 99 23 18 6
+No pairs found
+Enter the desired sum, number of elements, each element:
+24 10 13 12 24 19 6 5 0 27 -3 7
+(24, 0) found at [3] [7]
+(19, 5) found at [4] [6]
+(27, -3) found at [8] [9]
+
+Prompt #9: 
+Write some python code to do fulfill the following prompt: 
+1.  Find the Missing Side
+In this problem you’ll be given the length of two sides of a right triangle and need to calculate the name and length of the third side. The two given sides can change. In other words, the same two sides are not always provided. Review the right triangle below.
+The right triangle has sides AB, BC, and AC. Side AC is always the hypotenuse. Assume you are given the following input: AB is 3, BC is 4. Your application must identify the missing side as AC and the length as 5.
+Input
+The application should prompt for and read: (a) the name of the first side, (b) the length of the first side, (c) the name of the second side, (d) the length of the second side. The lengths will be integer values greater than one. The names will be two characters based on the figure above. Values will be AB, BC, or AC. Only valid data will be entered. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+The name of the missing side and the length of the missing side. Any decimal positions in the length of the missing side must be dropped not rounded.
+
+Prompt #10: 
+Write some python code to do fulfill the following prompt: 
+2.  Single Digit
+In this problem you will start with a single positive number. Subtract adjacent pairs of digits in that number to get the absolute value of their difference. Each result is used to generate a new number. Repeat that process as many times as necessary to arrive at a number that is a single digit. Display the final single digit.
+This example starts with 584. The first iteration produces the following interim values.
+| 5 – 8 | = 3 | 8 – 4 | = 4
+The process is repeated for 34.
+| 3 – 4 | = 1
+The result is 1.
+Input
+Prompt for the input as shown below. Enter a single integer value greater than zero. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+The single digit that is the final result from successively subtracting adjacent digits in the number.
+Test Data
+Input
+Output
+Enter the number:  5
+5
+Enter the number:  98765
+0
+Enter the number:  128745
+3
+Additional Information:
+You do not need to handle exceptions.
+Add your name as a comment in the first line in your source code. Add the following after your name: “Gold #2”.
+The judges will test your application with a different set of data that will have a different number of test cases.
+
+Prompt #11: 
+Write some python code to do fulfill the following prompt: 
+3.  Agreeable Numbers
+In this problem, agreeable numbers are two different numbers where the sum of the divisors of one number are equal to the other number. Given two numbers X and Y, the divisors of X sum to Y and the divisors of Y sum to X. A divisor of a number is a positive factor of that number other than the number itself. In other words, a number N is a divisor of X, if dividing X by N leaves no reminder. The smallest pair of agreeable numbers is (220, 284). They are agreeable because the divisors of 220 are 1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110, which sum to 284 and the divisors of 284 are 1, 2, 4, 71 and 142, which sum to 220. You will be given two integer numbers and must determine if these are agreeable numbers.
+Input
+Prompt for the input as shown below. Enter two positive integer numbers separated by a space. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+The phrase “Agreeable numbers” if the two numbers are agreeable. The phrase “Not agreeable numbers” if the two numbers are not agreeable.
+Test Data
+
+Prompt #12: 
+Write some python code to do fulfill the following prompt: 
+4.  Reverse the Array (Many Times)
+In this problem you will build a new array using the numbers from an existing array. Add each number, one at a time, to the end of the new array. Then reverse the order of the numbers in the new array. Repeat this for each number added. For example, given the array [1, 2, 3, 4]. Add the first element [1] to the end of a new array and reverse it. Then add the second element [2] to the end of the new array and reverse the array. Repeat this process n times where n is the size of the array. The result is the array [4, 2, 1, 3]. Below are the detailed steps for the array [1, 2, 3, 4].
+Add next element to end
+Reverse the array
+1
+[1]
+[1]
+2
+[1, 2]
+[2, 1]
+3
+[2, 1, 3]
+[3, 1, 2]
+4
+[3, 1, 2, 4]
+[4, 2, 1, 3]
+Here is another example starting with the original array [4, 8, 6, 1, 7, 9] and ending with a result of [9, 1, 8, 4, 6, 7].
+Add next element to end
+Reverse the array
+1
+[4]
+[4]
+2
+[4, 8]
+[8, 4]
+3
+[8, 4, 6]
+[6, 4, 8]
+4
+[6, 4, 8, 1]
+[1, 8, 4, 6]
+5
+[1, 8, 4, 6, 7]
+[7, 6, 4, 8, 1]
+6
+[7, 6, 4, 8, 1, 9]
+[9, 1, 8, 4, 6, 7]
+
+Prompt #13: 
+Write some python code to do fulfill the following prompt: 
+5.  String Sort
+In this problem you will need to sort a list of words based on their length. The shortest word must be first and the longest word must be last. Words of the same length may be in any order within that length. Given the list of words: fourteen, forty, thirty, one, three, the sorted list will be: one, forty, three, thirty, fourteen.
+Input
+Prompt for and read the number of words, N, to be entered. Prompt for and enter N words. N will be positive and greater than 0. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+Display the list of words in order by their length. The shortest word must be first and the longest word must be last. Words of the same length may be in an order.
+Test Data
+
+Prompt #14: 
+Write some python code to do fulfill the following prompt: 
+6.  Load Rocks
+The Rockland Quarry stores rocks in bags. The first bag on the shelf has 1 pound of rocks, the next bag has 2 pounds of rocks, the next has 3 pounds of rocks and so on. The quarry has an unlimited number of bags of rocks. In other words, the heaviest bag stored weighs as much as the largest integer value. A customer specifies a weight when ordering rocks. Rocky, the forklift operator, always takes bags from adjacent locations to meet the required weight. He also always takes a minimum of two bags. You must write an application to help Rocky find all the possible combinations of rock bags with consecutive weights that will total the weight the customer ordered. For example, Bobby Stone has ordered 15 pounds of rock. There are 3 combinations of consecutive weights that will add to 15. These are:
+1 + 2 + 3 + 4 + 5 = 15
+4 + 5 + 6 = 15
+7 + 8 = 15
+For some large orders the number of combinations could be quite high and result in a large amount of output. To reduce the amount of output and still prove the application works the owner, Mr. Slate, has agreed to accept two pieces of data instead. The first is the number of combinations that meet the criteria. The second is the sum of the first number in each combination. For an order of 15 pounds the output would be 3 and 12. The 12 was calculated as 1 + 4 + 7.
+Input
+Prompt for and read the weight of rocks on order. The weight of rocks will be a positive integer greater than 2. Data will be entered from console. You do not need to edit the input data. Rerun your application to test each test case.
+Output
+Display the number of bag combinations that will total the order weight followed by the sum of the first number in each combination.
+
+Prompt #15: 
+Write some python code to do fulfill the following prompt: 
+7.  Eliminate Unlucky Numbers
+In this problem you will generate a lucky number by manipulating a list of odd numbers. The user will enter a number (n) indicating the number of “passes” through the list. The first pass is to generate a list of positive odd integers. The list will be composed of the first 10,000 odd numbers. On the second pass, eliminate every third number from the list. This is because 3 is the 2nd number in the original list and this is the 2nd pass. On the third pass, eliminate every 7th number in the revised list. This is because 7 is the 3rd number in the revised list and this is the 3rd pass. If the user entered 4 for n, then the next pass is to display the 4th number in the revised list. The fourth number will be 9. This is the lucky number for a user entered value of 4. For example:
+Original list (pass one): 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51 53 55 57 59 … 19999
+Revised list (pass two) after eliminating every 3rd number (which was the 2nd number in the list above) 1 3 7 9 13 15 19 21 25 27 31 33 37 39 43 45 49 51 55 57 … (5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65 … were eliminated)
+Revised list (pass three) after eliminating every 7th number (which was the 3rd number in the revised list) 1 3 7 9 13 15 21 25 27 31 33 37 43 45 49 51 55 57 … (19, 39, 61, 81, 103 … were eliminate)
+The lucky number is the 4th number in the revised list.
+
+Prompt #16: 
+Write some python code to do fulfill the following prompt: 
+8.  Museum Tour
+In this problem, you must follow a set of instructions to travel through the rooms of a museum. The museum is housed in a rectangular building. The building is divided into equal size rooms that can be defined by a grid of a fixed number of rows and columns. Rooms on the outside have doors on their exterior walls to allow entry from the outside. However, corner rooms can only be entered from the north or south. Corner rooms can’t be entered from the east or west. An interior room can be accessed from any adjacent room. The goal is to identify valid museum tours. A valid tour is one that never visits the same room twice and ends with the last instruction causing you to exit the museum.
+For each museum tour you are given the grid describing the museum rooms in the form of the number of rows (r) and columns (c). You are also given a starting room. Finally, you are given a series of instructions on how to walk through the rooms. There are three instructions represented by the numbers 0, 1, and 2. Zero is to move straight forward one room. One represents a move one room to the right. A two represents a move one room to the left.
+
